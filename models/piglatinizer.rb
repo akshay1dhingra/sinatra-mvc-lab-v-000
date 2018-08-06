@@ -31,7 +31,7 @@ class PigLatinizer
     elsif consonants.include?(downcase_word[0]) #first word only start with a consonant? == word[1..-1] + word[0] + "way"
       word[1..-1] + word[0] + 'ay'
     else #else, return (word)
-      word # return 
+      word # return
     end
   end
 
