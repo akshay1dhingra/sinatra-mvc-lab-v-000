@@ -40,7 +40,7 @@ class PigLatinizer
     piglatin_array = []
 
     split_phrase.each do |word|
-    piglatin_array << piglatinize(word)
+    piglatin_array << piglatinize_word(word)
   end
 
     piglatin_array.join(" ")
